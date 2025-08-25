@@ -25,3 +25,18 @@ Route::get('/resume/preview', [ResumeController::class, 'preview'])->name('resum
 
 Route::get('/resume1/download', [ResumeController::class, 'download1'])->name('resume1.download');
 Route::get('/resume1/preview', [ResumeController::class, 'preview1'])->name('resume1.preview');
+
+Route::get('/template1/download', [ResumeController::class, 'download2'])->name('template1.download');
+Route::get('/template1/preview', [ResumeController::class, 'preview2'])->name('template1.preview');
+
+Route::get('/template2/download', [ResumeController::class, 'download3'])->name('template2.download');
+Route::get('/template2/preview', [ResumeController::class, 'preview3'])->name('template2.preview');
+
+Route::get('/template3/download', [ResumeController::class, 'download4'])->name('template3.download');
+Route::get('/template3/preview', [ResumeController::class, 'preview4'])->name('template3.preview');
+
+Route::get('/template4/download', [ResumeController::class, 'download5'])->name('template4.download');
+Route::get('/template4/preview', [ResumeController::class, 'preview5'])->name('template4.preview');
+
+Route::get('/template5/download', [ResumeController::class, 'download6'])->name('template5.download');
+Route::get('/template5/preview', [ResumeController::class, 'preview6'])->name('template5.preview');
